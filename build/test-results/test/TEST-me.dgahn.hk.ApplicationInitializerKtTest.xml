@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.dgahn.hk.ApplicationInitializerKtTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-01-08T08:12:36" hostname="andeoggiui-MacBookPro.local" time="0.22">
+  <properties/>
+  <testcase name="로그인에 성공한 경우 상태코드 301(Found)를 받는다." classname="me.dgahn.hk.ApplicationInitializerKtTest" time="0.219"/>
+  <testcase name="현재 로그인 상태인 경우 'User is Logged' 텍스트를 반환한다." classname="me.dgahn.hk.ApplicationInitializerKtTest" time="0.024"/>
+  <system-out><![CDATA[17:12:36.728 [pool-2-thread-1 @coroutine#3] INFO ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active
+17:12:36.908 [pool-2-thread-1 @coroutine#7] INFO ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
