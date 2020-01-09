@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.dgahn.hk.RoutingBDDTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-01-09T05:18:58" hostname="andeoggiui-MacBookPro.local" time="0.129">
+  <properties/>
+  <testcase name="Then: OK를 반환한다." classname="me.dgahn.hk.RoutingBDDTest" time="0.126"/>
+  <testcase name="Then: Token이 없으면 null 반환한다." classname="me.dgahn.hk.RoutingBDDTest" time="0.108"/>
+  <testcase name="Then: Token을 반환한다." classname="me.dgahn.hk.RoutingBDDTest" time="0.026"/>
+  <testcase name="Then: Invalid credentials를 반환한다." classname="me.dgahn.hk.RoutingBDDTest" time="0.008"/>
+  <system-out><![CDATA[14:18:58.156 [pool-2-thread-1 @coroutine#5] INFO ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active
+14:18:58.485 [pool-2-thread-1 @coroutine#15] INFO ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active
+14:18:58.502 [pool-2-thread-1 @coroutine#23] INFO ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active
+14:18:58.585 [pool-2-thread-1 @coroutine#33] INFO ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

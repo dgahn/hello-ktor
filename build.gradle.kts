@@ -15,9 +15,13 @@ dependencies {
     val ktorVersion = "1.2.6"
 
     implementation(kotlin("stdlib-jdk8"))
+    implementation("ch.qos.logback:logback-classic:1.2.+")
+    implementation("io.github.microutils:kotlin-logging:1.6.+")
     implementation("io.ktor:ktor-auth:$ktorVersion")
+    implementation("io.ktor:ktor-auth-jwt:$ktorVersion")
     implementation("io.ktor:ktor-server-test-host:$ktorVersion")
     implementation("io.ktor:ktor-freemarker:$ktorVersion")
+    implementation("io.ktor:ktor-jackson:$ktorVersion")
     implementation("io.ktor:ktor-server-netty:$ktorVersion")
     testImplementation("io.kotlintest:kotlintest-runner-junit5:3.4.2")
 }
